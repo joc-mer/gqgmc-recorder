@@ -25,7 +25,7 @@ def main():
     version = get_version(serial)
     print('Connected to ' + version)
 
-    for i in range(100):
+    for i in range(120):
         print(get_cpm(serial))
         time.sleep(1)
 
